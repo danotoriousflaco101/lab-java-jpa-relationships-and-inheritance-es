@@ -1,0 +1,12 @@
+1. Three tasks that can be done with native SQL but are difficult or impossible with JPQL:
+
+• Using database-specific functions (like window or analytical functions).
+• Executing DDL statements (like creating or altering tables).
+• Performing very complex joins or subqueries not supported by JPQL.
+
+
+2. Why prefer using native SQL in real-world projects?
+
+•	Provides more control for complex queries.
+•	Allows the use of database-specific features not supported by JPQL.
+•	Useful when working with existing optimized SQL code.
